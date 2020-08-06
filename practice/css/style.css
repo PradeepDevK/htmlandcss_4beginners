@@ -21,3 +21,32 @@ img#image {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
+
+#picture-css {
+    width: 900px;
+    height: 300px;
+    background-image: url("../images/download.png");
+    margin: 0 auto;
+}
+
+#hovers h1 {
+    text-align: center;
+}
+
+#hovers {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-image: url("../images/download.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+
+#hovers:hover {
+    /* background: black; */
+    border: 1px solid red;
+    color: red;
+    opacity: 1;
+    
+}
